@@ -1,7 +1,7 @@
 const btn = document.querySelector(".start-game");
 
 function month() {
-  const n = prompt("Введите число от 1-12");
+  const monthNumber = prompt("Введите число от 1-12");
 
   if (n == 1) {
     return "Январь";
